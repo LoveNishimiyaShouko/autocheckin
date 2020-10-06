@@ -1,5 +1,8 @@
-allcheckin(puyunaccount: dict, fporkaccount: dict)
+# -*-coding:utf-8-*-
 
-puyun(account: dict)
+from autocheckin import allcheckin, puyun, fpork
 
-fpork(account: dict)
+if __name__ == '__main__':
+    puyun({"1": "2"})
+    fpork({"3": "4"})
+    allcheckin({"1": "2"}, {"3": "4"})
