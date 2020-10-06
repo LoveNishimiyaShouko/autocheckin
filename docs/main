@@ -1,0 +1,5 @@
+allcheckin(puyunaccount: dict, fporkaccount: dict)
+
+puyun(account: dict)
+
+fpork(account: dict)
